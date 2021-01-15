@@ -3,4 +3,4 @@
 static web gue
 https://taqinasirr.github.io/
 
-![programming3](https://user-images.githubusercontent.com/21170527/104677832-186af000-5725-11eb-8cf8-97aa86e65437.gif)
+![programming4](https://user-images.githubusercontent.com/21170527/104678833-4a7d5180-5727-11eb-9250-4bd11e9f36b3.gif)
