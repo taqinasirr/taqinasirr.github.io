@@ -1,113 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Cursive Fonts</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<title>Document</title>
 	<style>
-
 		body{
-			text-align: center;
+			margin: 0;
+			padding: 0;
+			background-color: black;
 		}
-	 
-		.wrap > div:nth-child(odd){ background-color: tomato; }
-		.wrap > div:nth-child(even){ background-color: skyblue; }
-		.wrap{display: grid; grid-template-columns: 2fr; grid-auto-rows:minmax(150px, auto); grid-gap:10px;  }
-		@media(min-width:1025px){.wrap{grid-template-columns: repeat(2, 2fr)}}
-		.box{display: grid}
-		h1{ color:black; font-size: 70px; align-self: center; justify-self:center; font-weight: 1}
-
-    @font-face {font-family: atelas; src:url('Atelas_PersonalUseOnly.ttf');}   
-    @font-face {font-family: autumn; src:url('Autumn in November.ttf');}   
-    @font-face {font-family: back; src:url('Back to Black Demo.ttf');}   
-    @font-face {font-family: baroquescript; src:url('BaroqueScript.ttf');}   
-    @font-face {font-family: belle; src:url('Belle et Belle Personal Use.ttf');}   
-    @font-face {font-family: bira; src:url('Bira_PERSONAL_USE_ONLY.ttf');}   
-    @font-face {font-family: breeze; src:url('Breeze Personal Use.ttf');}   
-    @font-face {font-family: darklarch; src:url('DarkLarch_PERSONAL_USE.ttf');}   
-    @font-face {font-family: coneria; src:url('Demo_ConeriaScript.ttf');}   
-    @font-face {font-family: greatvibes; src:url('GreatVibes-Regular.ttf');}   
-    @font-face {font-family: hellostockholm; src:url('HelloStockholm-Regular.otf');}   
-    @font-face {font-family: jandastylish; src:url('JandaStylishScript.ttf');}   
-    @font-face {font-family: karine; src:url('Karine aime les Chocolats.ttf');}   
-    @font-face {font-family: kingbasil; src:url('King-Basil-Lite.otf');}   
-    @font-face {font-family: marguaritas; src:url('Marguaritas.ttf');}   
-    @font-face {font-family: mastoc; src:url('Mastoc_PersonalUseOnly.ttf');}   
-    @font-face {font-family: mightype; src:url('Mightype.otf');}   
-    @font-face {font-family: milasian; src:url('MilasianCircaBoldPERSONAL.ttf');}   
-    @font-face {font-family: northerlights; src:url('NorthernLights-Script.otf');}   
-    @font-face {font-family: sebastiana; src:url('Sebastiana personal use.otf');}   
-    @font-face {font-family: stonestick; src:url('StoneStick-FREE TESTER.otf');}   
-    @font-face {font-family: sverige; src:url('SverigeScriptClean_Demo.ttf');}   
-    @font-face {font-family: yesteryear; src:url('Yesteryear-Regular.ttf');}   
-    @font-face {font-family: lachatte; src:url('la Chatte a Maman.ttf');}   
-    @font-face {font-family: jenthill; src:url('Jenthill DEMO.ttf');}   
+		body::-webkit-scrollbar {
+			display: none;
+		}
+		img{
+			margin: 15% auto;
+			display: block;
+		}
 		
-		.box1 {font-family: atelas}
-		.box2 {font-family: autumn}
-		.box3 {font-family: back}
-		.box4 {font-family: baroquescript}
-		.box5 {font-family: belle}
-		.box6 {font-family: bira}
-		.box7 {font-family: breeze}
-		.box8 {font-family: darklarch}
-		.box9 {font-family: coneria}
-		.box12{font-family: greatvibes}
-		.box13{font-family: hellostockholm}
-		.box14{font-family: jandastylish}
-		.box15{font-family: karine}
-		.box16{font-family: kingbasil}
-		.box17{font-family: marguaritas}
-		.box18{font-family: mastoc}
-		.box19{font-family: mightype}
-		.box20{font-family: milasian}
-		.box21{font-family: northerlights}
-		.box22{font-family: sebastiana}
-		.box23{font-family: stonestick}
-		.box24{font-family: sverige}
-		.box25{font-family: yesteryear}
-		.box26{font-family: lachatte}
-		.box27{font-family: jenthill}
-
-		   
-	
-
 	</style>
-
 </head>
 <body>
-
-
-<div class="wrap">
-	<div class="box1 box"><h1>Atelas</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box2 box"><h1>Autumn in November</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box3 box"><h1>Back to Black</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box4 box"><h1>BaroqueScript</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box5 box"><h1>Belle et Belle</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box6 box"><h1> Bira</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box7 box"><h1>Breeze</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box8 box"><h1>Darklarch</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box9 box"><h1>ConeriaSCript</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box12 box"><h1>GreatVibes</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box13 box"><h1>HelloStockholm</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box14 box"><h1>JandaStylishScript</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box15 box"><h1>Karine aime les Chocolats</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box16 box"><h1>King-Basil-Lite</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box17 box"><h1>Marguaritas</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box18 box"><h1>Mastoc</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box19 box"><h1>Mightype</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box20 box"><h1>MilasianCircaBold</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box21 box"><h1>NorthernLights</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box22 box"><h1>Sebastiana</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box23 box"><h1>StoneStick</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box24 box"><h1>SverigeScriptClean</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box25 box"><h1>Yesteryear</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box26 box"><h1>la Chatte a Maman</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	<div class="box27 box"><h1>Jenthill</h1><h4>@font-face {font-family: ; src:url('');}</h4></div>
-	
-
-</div>
-
+		<img src="programming3.gif" alt="programming gif">
 </body>
 </html>
